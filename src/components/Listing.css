@@ -1,0 +1,38 @@
+.listing-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 5%;
+  list-style: none;
+}
+.listing-main {
+  margin-top: -26%;
+}
+.listing-main h1 {
+  margin-bottom: 50px;
+}
+.listing-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 10px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+.listing-item img {
+  width: 100%;
+}
+.listing-item a {
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 768px) {
+  .listing-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1%;
+    list-style: none;
+  }
+}

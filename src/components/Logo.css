@@ -1,0 +1,7 @@
+.example {
+  stroke: #3de01c;
+  margin-left: 0%;
+  position: relative;
+
+  z-index: 1;
+}
